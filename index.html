@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Premium Modern Gym Website"/>
+  <title>EliteFit Gym</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css"/>
+
+  <script src="https://kit.fontawesome.com/4f5b390249.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Loader -->
+  <div class="loader">
+    <div class="loader-ring"></div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      ELITE<span>FIT</span>
+    </div>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <h1>BUILD YOUR <span>DREAM PHYSIQUE</span></h1>
+
+      <p>
+        Premium fitness experience with world-class trainers,
+        luxury equipment, and a powerful environment.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#pricing" class="btn primary-btn">Join Now</a>
+        <a href="#about" class="btn secondary-btn">Explore</a>
+      </div>
+
+      <div class="stats">
+
+        <div class="stat-card glass">
+          <h2 class="counter" data-target="5000">0</h2>
+          <p>Members</p>
+        </div>
+
+        <div class="stat-card glass">
+          <h2 class="counter" data-target="25">0</h2>
+          <p>Trainers</p>
+        </div>
+
+        <div class="stat-card glass">
+          <h2 class="counter" data-target="12">0</h2>
+          <p>Years</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+
+    <div class="section-title">
+      <span>About Us</span>
+      <h2>Luxury Fitness Experience</h2>
+    </div>
+
+    <div class="about-container">
+
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1200&auto=format&fit=crop" alt="">
+      </div>
+
+      <div class="about-content">
+
+        <div class="glass feature-box">
+          <i class="fas fa-dumbbell"></i>
+          <div>
+            <h3>Premium Equipment</h3>
+            <p>International quality fitness machines and advanced equipment.</p>
+          </div>
+        </div>
+
+        <div class="glass feature-box">
+          <i class="fas fa-user-check"></i>
+          <div>
+            <h3>Certified Trainers</h3>
+            <p>Professional trainers helping you achieve your dream body.</p>
+          </div>
+        </div>
+
+        <div class="glass feature-box">
+          <i class="fas fa-heartbeat"></i>
+          <div>
+            <h3>Healthy Lifestyle</h3>
+            <p>We help transform your body and mindset with discipline.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services section" id="services">
+
+    <div class="section-title">
+      <span>Our Services</span>
+      <h2>What We Provide</h2>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card glass">
+        <i class="fas fa-dumbbell"></i>
+        <h3>Weight Training</h3>
+      </div>
+
+      <div class="service-card glass">
+        <i class="fas fa-user"></i>
+        <h3>Personal Training</h3>
+      </div>
+
+      <div class="service-card glass">
+        <i class="fas fa-heartbeat"></i>
+        <h3>Cardio</h3>
+      </div>
+
+      <div class="service-card glass">
+        <i class="fas fa-fire"></i>
+        <h3>CrossFit</h3>
+      </div>
+
+      <div class="service-card glass">
+        <i class="fas fa-apple-alt"></i>
+        <h3>Diet Plans</h3>
+      </div>
+
+      <div class="service-card glass">
+        <i class="fas fa-bolt"></i>
+        <h3>Strength Training</h3>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing section" id="pricing">
+
+    <div class="section-title">
+      <span>Membership</span>
+      <h2>Pricing Plans</h2>
+    </div>
+
+    <div class="pricing-grid">
+
+      <div class="pricing-card glass">
+        <h3>Basic</h3>
+        <h1>₹999</h1>
+        <p>Monthly Access</p>
+
+        <ul>
+          <li>Gym Access</li>
+          <li>Locker Facility</li>
+          <li>Free WiFi</li>
+        </ul>
+
+        <button class="btn primary-btn">Choose Plan</button>
+      </div>
+
+      <div class="pricing-card featured">
+        <h3>Pro</h3>
+        <h1>₹1999</h1>
+        <p>Monthly Access</p>
+
+        <ul>
+          <li>Everything in Basic</li>
+          <li>Personal Trainer</li>
+          <li>Diet Guidance</li>
+        </ul>
+
+        <button class="btn primary-btn">Choose Plan</button>
+      </div>
+
+      <div class="pricing-card glass">
+        <h3>Premium</h3>
+        <h1>₹3499</h1>
+        <p>Monthly Access</p>
+
+        <ul>
+          <li>VIP Access</li>
+          <li>24/7 Support</li>
+          <li>Premium Lounge</li>
+        </ul>
+
+        <button class="btn primary-btn">Choose Plan</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Trainers -->
+  <section class="trainers section" id="trainers">
+
+    <div class="section-title">
+      <span>Experts</span>
+      <h2>Meet Our Trainers</h2>
+    </div>
+
+    <div class="trainers-grid">
+
+      <div class="trainer-card glass">
+        <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=1200&auto=format&fit=crop" alt="">
+        <h3>Rahul Sharma</h3>
+        <p>Strength Coach</p>
+        <span>8 Years Experience</span>
+      </div>
+
+      <div class="trainer-card glass">
+        <img src="https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?q=80&w=1200&auto=format&fit=crop" alt="">
+        <h3>Aryan Mehta</h3>
+        <p>CrossFit Expert</p>
+        <span>6 Years Experience</span>
+      </div>
+
+      <div class="trainer-card glass">
+        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1200&auto=format&fit=crop" alt="">
+        <h3>Priya Kapoor</h3>
+        <p>Fitness Trainer</p>
+        <span>7 Years Experience</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BMI Calculator -->
+  <section class="bmi section">
+
+    <div class="section-title">
+      <span>BMI Tool</span>
+      <h2>Calculate Your BMI</h2>
+    </div>
+
+    <div class="bmi-container glass">
+
+      <input type="number" id="height" placeholder="Height in CM">
+
+      <input type="number" id="weight" placeholder="Weight in KG">
+
+      <button onclick="calculateBMI()" class="btn primary-btn">
+        Calculate BMI
+      </button>
+
+      <h3 id="result">Your BMI: --</h3>
+
+    </div>
+  </section>
+
+  <!-- Transformations -->
+  <section class="transform section">
+
+    <div class="section-title">
+      <span>Transformations</span>
+      <h2>Real Results</h2>
+    </div>
+
+    <div class="transform-grid">
+
+      <div class="transform-card glass">
+        <img src="https://images.unsplash.com/photo-1518611012118-fb4c4c1f16a0?q=80&w=1200&auto=format&fit=crop" alt="">
+        <h3>Weight Loss Journey</h3>
+      </div>
+
+      <div class="transform-card glass">
+        <img src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?q=80&w=1200&auto=format&fit=crop" alt="">
+        <h3>Muscle Gain</h3>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials section">
+
+    <div class="section-title">
+      <span>Reviews</span>
+      <h2>What Clients Say</h2>
+    </div>
+
+    <div class="testimonial-grid">
+
+      <div class="testimonial-card glass">
+        <p>
+          "Best gym environment and amazing trainers.
+          My body transformed completely."
+        </p>
+
+        <div class="stars">
+          ★★★★★
+        </div>
+
+        <h4>- Aman</h4>
+      </div>
+
+      <div class="testimonial-card glass">
+        <p>
+          "Luxury gym feel with modern equipment.
+          Highly recommended."
+        </p>
+
+        <div class="stars">
+          ★★★★★
+        </div>
+
+        <h4>- Rohan</h4>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery section">
+
+    <div class="section-title">
+      <span>Gallery</span>
+      <h2>Gym Environment</h2>
+    </div>
+
+    <div class="gallery-grid">
+
+      <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1200&auto=format&fit=crop" alt="">
+      <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1200&auto=format&fit=crop" alt="">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop" alt="">
+      <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=1200&auto=format&fit=crop" alt="">
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+
+    <div class="section-title">
+      <span>Contact Us</span>
+      <h2>Get In Touch</h2>
+    </div>
+
+    <div class="contact-container">
+
+      <div class="contact-info glass">
+
+        <h3>EliteFit Gym</h3>
+
+        <p>
+          <i class="fas fa-phone"></i>
+          8769564375
+        </p>
+
+        <p>
+          <i class="fas fa-envelope"></i>
+          devkrishnasharma22102010@gmail.com
+        </p>
+
+        <a href="https://wa.me/918769564375" class="btn whatsapp-btn">
+          WhatsApp Us
+        </a>
+
+      </div>
+
+      <form class="contact-form glass">
+
+        <input type="text" placeholder="Your Name">
+
+        <input type="email" placeholder="Your Email">
+
+        <textarea rows="5" placeholder="Your Message"></textarea>
+
+        <button class="btn primary-btn">Send Message</button>
+
+      </form>
+
+    </div>
+
+    <div class="map">
+      <iframe
+        src="https://maps.google.com/maps?q=jaipur&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 EliteFit Gym. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Back To Top -->
+  <button id="topBtn">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/918769564375" class="floating-whatsapp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
